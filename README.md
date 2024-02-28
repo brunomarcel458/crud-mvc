@@ -1,33 +1,7 @@
-## Instalação
-Você pode clonar este repositório OU baixar o .zip
+#Este é o meu primeiro projeto de CRUD criado utilizando o modelo de arquitetura MVC.
 
-Ao descompactar, é necessário rodar o **composer** pra instalar as dependências e gerar o *autoload*.
+#Criei esse projeto de adição de usuários seguindo o material do curso B7WEB, do Bonieky. 
 
-Vá até a pasta do projeto, pelo *prompt/terminal* e execute:
-> composer install
+#Tecnologias e ferramentas utilizadas:
 
-Depois é só aguardar.
-
-## Configuração
-Todos os arquivos de **configuração** e aplicação estão dentro da pasta *src*.
-
-As configurações de Banco de Dados e URL estão no arquivo *src/Config.php*
-
-É importante configurar corretamente a constante *BASE_DIR*:
-> const BASE_DIR = '/**PastaDoProjeto**/public';
-
-## Uso
-Você deve acessar a pasta *public* do projeto.
-
-O ideal é criar um ***alias*** específico no servidor que direcione diretamente para a pasta *public*.
-
-## Modelo de MODEL
-```php
-<?php
-namespace src\models;
-use \core\Model;
-
-class Usuario extends Model {
-
-}
-```
+#PHP, JavaScript, HTML, MySQL, XAMPP, VS Code.
